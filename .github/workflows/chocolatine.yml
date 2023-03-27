@@ -78,7 +78,7 @@ jobs:
 
   push_to_mirror:
     runs-on: ubuntu-latest
-    needs: [check_coding_style]
+    needs: [run_tests]
     if: github.event_name == 'push'
     steps:
 
