@@ -31,7 +31,6 @@ SRC	= 	function/my_str_isprintable.c		\
 		function/my_str_to_word_array.c		\
 		function/my_strtok.c				\
 		function/my_isalnum.c				\
-		function/strtok_keep_separators.c	\
 		my_printf/my_printf.c 				\
 		my_printf/flag_c.c 					\
 		my_printf/flag_d.c 					\

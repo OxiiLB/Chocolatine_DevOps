@@ -12,8 +12,7 @@ int my_isneg(int n)
     if (n < 0) {
         if (my_putchar('N') == -1)
             return -1;
-    }
-    else {
+    } else {
         if (my_putchar('P') == -1)
             return -1;
     }
