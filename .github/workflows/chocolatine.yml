@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     container:
-      image: ghcr.io/epitech/coding-style-checker:latest
+      image: epitechcontent/epitest-docker:latest
     steps:
 
       - name: use_checkout
