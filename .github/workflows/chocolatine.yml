@@ -50,7 +50,7 @@ jobs:
           repository: ''
 
       - name: run_coding-style.sh
-        run: check.sh /tmp/
+        run: check.sh . /tmp/
 
       - name: annotations
         run: |
@@ -62,7 +62,7 @@ jobs:
           if [ $(cat /tmp/coding-style-reports.log | wc -l) -gt 0 ]; then
               exit 1
           fi
-  
+
   run_tests:
     needs: [check_coding_style]
     runs-on: ubuntu-latest
