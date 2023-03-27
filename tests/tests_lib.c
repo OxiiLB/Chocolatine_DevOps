@@ -170,9 +170,9 @@ Test(my_str_to_word_array_test, array_split, .init=redirect_all_std)
     cr_assert_str_eq(array[1], "World");
 }
 
-Test(my_spliter_test, array_split, .init=redirect_all_std)
+Test(my_strtok_test, array_split, .init=redirect_all_std)
 {
-    char **array = my_spliter("Hello-World", '-');
+    char **array = my_strtok("Hello-World", "-");
     cr_assert_str_eq(array[0], "Hello");
     cr_assert_str_eq(array[1], "World");
 }

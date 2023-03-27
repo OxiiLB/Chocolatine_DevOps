@@ -74,7 +74,7 @@ jobs:
           repository: ''
       
       - name: compile_project
-        run: make test_run
+        run: make tests_run
 
   push_to_mirror:
     runs-on: ubuntu-latest
